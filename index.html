@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title of the web page -->
+    <title>Mac Book Pro</title>
+
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="mac-book-pro">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="img-fluid" src="images/i-mac.png" alt="Mac Book Pro">
+                        </div>
+                        <div class="col-md-7 ps-4">
+                            <div class="mac-book-content">
+                                <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                                <p>Apple M1 chip with 8-core CPU with 4 performace cores and 4 efficiency cores, 7-core
+                                    GPU and 16-core
+                                    Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic
+                                    Mouse Magic
+                                    Keyboard-US English</p>
+                            </div>
+
+                            <div class="specifications mt-5" id="specifications">
+
+                                <!-- Memory Section -->
+                                <div class="memory mb-4">
+                                    <h4>Memory</h4>
+                                    <button id="baseMemory" class="btn button">8GB unified memory</button>
+                                    <button id="extendedMemory" class="btn button">16GB unified memory</button>
+                                </div>
+
+                                <!-- Storage Section -->
+                                <div class="storage mb-4" id="storage">
+                                    <h4>Storage</h4>
+                                    <button id="baseStorage" class="btn button">256GB SSD storage</button>
+                                    <button id="extraStorage" class="btn button">512GB SSD storage</button>
+                                    <button id="extendedStorage" class="btn button">1TB SSD storage</button>
+                                </div>
+
+                                <!-- Delivery Section -->
+                                <div class="shipping mb-4" id="shipping">
+                                    <h4>Choose your Delivery option</h4>
+                                    <button class="btn button" id="freeDelivery">Friday, Aug 25 FREE Prime
+                                        Delivery</button>
+                                    <button class="btn button" id="expressDelivery">Friday, Aug 21 Delivery Charge
+                                        $20</button>
+                                </div>
+                            </div>
+
+                            <!-- Pricing Section -->
+                            <div class="pricing-area mb-4">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <th>Best Price</th>
+                                            <th>$<span id="basePrice">1299</span></th>
+                                        </tr>
+                                        <tr>
+                                            <th>Extra Memory Cost</th>
+                                            <th>$<span id="memoryCost">0</span></th>
+                                        </tr>
+                                        <tr>
+                                            <th>Extra Storage Cost</th>
+                                            <th>$<span id="storageCost">0</span></th>
+                                        </tr>
+                                        <tr>
+                                            <th>Delivery charge</th>
+                                            <th>$<span id="deliveryCost">0</span></th>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Price</th>
+                                            <th>$<span id="totalPrice">1299</span></th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- Promo Code Section -->
+                            <div class="promo-code">
+                                <h6>Add Promo Code</h6>
+                                <input id="promoCode" type="text" class="input-field" placeholder="Promo Code">
+                                <button id="promoButton" class="btn btn-danger">Apply</button>
+                            </div>
+                            <!-- <div class="my-5">
+                                <input id="promoCode" type="text">
+                                <button id="promoButton">Apply Promo Code</button>
+                            </div> -->
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="total-pricing text-center">
+                        <h1>After Discount Price $<span id="afterDiscount">1299</span></h1>
+                        <!-- <h1>Total: $<span id="total">1299</span></h1> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- bootstrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!-- custom js link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
